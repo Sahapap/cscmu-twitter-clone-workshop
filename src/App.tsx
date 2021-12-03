@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
+import { useState, ReactNode } from 'react'
+import Profile from './components/profile'
+import Home from './components/home'
+import Login from './components/login'
+import Car from './components/car'
+import Cat2 from './components/cat2'
+import { Route, Routes,  useLocation, useParams, useNavigate } from 'react-router-dom'
 import './App.css';
+import FrameComponent from './components/FrameComponent'
 
-function App() {
+const Component = (element: ReactNode) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <FrameComponent> {element} </FrameComponent>
+  )
 }
 
-export default App;
+export default function ResponsiveDrawer() {
+
+  return (
+    <Routes>
+        <Route path='/' element={Component(<Home />)} />
+        <Route path='/profile' element={ Component(<Profile/>) } />
+        <Route path='/car' element={<Car/>} />
+        <Route path='/cat2' element={<Cat2/>} />
+        <Route path='/login' element={ <Login/> } />
+        
+    </Routes>
+  );
+}
