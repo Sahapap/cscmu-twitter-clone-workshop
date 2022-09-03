@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cscmu-twitter-clone-workshop/static/css/main.5a81af1d.chunk.css",
+    "main.js": "/cscmu-twitter-clone-workshop/static/js/main.a47aa134.chunk.js",
+    "main.js.map": "/cscmu-twitter-clone-workshop/static/js/main.a47aa134.chunk.js.map",
+    "runtime-main.js": "/cscmu-twitter-clone-workshop/static/js/runtime-main.83373066.js",
+    "runtime-main.js.map": "/cscmu-twitter-clone-workshop/static/js/runtime-main.83373066.js.map",
+    "static/js/2.3de499d3.chunk.js": "/cscmu-twitter-clone-workshop/static/js/2.3de499d3.chunk.js",
+    "static/js/2.3de499d3.chunk.js.map": "/cscmu-twitter-clone-workshop/static/js/2.3de499d3.chunk.js.map",
+    "static/js/3.c0707bac.chunk.js": "/cscmu-twitter-clone-workshop/static/js/3.c0707bac.chunk.js",
+    "static/js/3.c0707bac.chunk.js.map": "/cscmu-twitter-clone-workshop/static/js/3.c0707bac.chunk.js.map",
+    "index.html": "/cscmu-twitter-clone-workshop/index.html",
+    "static/css/main.5a81af1d.chunk.css.map": "/cscmu-twitter-clone-workshop/static/css/main.5a81af1d.chunk.css.map",
+    "static/js/2.3de499d3.chunk.js.LICENSE.txt": "/cscmu-twitter-clone-workshop/static/js/2.3de499d3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83373066.js",
+    "static/js/2.3de499d3.chunk.js",
+    "static/css/main.5a81af1d.chunk.css",
+    "static/js/main.a47aa134.chunk.js"
+  ]
+}
